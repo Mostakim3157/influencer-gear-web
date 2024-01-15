@@ -15,7 +15,7 @@
 /* nav starts */
 
 nav {
-  width: 1250px;
+  max-width: 1250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -47,4 +47,73 @@ nav {
   font-family: Poppins;
   font-size: 1rem;
   font-weight: 600;
+}
+
+/* banner starts */
+
+.banner {
+  max-width: 1250px;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 80px;
+}
+.banner-content {
+  width: 50%;
+}
+.banner-content-h2 {
+  color: #3a3a3a;
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 70px;
+  margin-top: 100px;
+}
+.banner-content-p {
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 16px 0px;
+  width: 80%;
+}
+.banner-content-btn {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: #e02c6d;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.banner-img {
+  width: 50%;
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center;
+}
+
+.banner-img-main {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+/* main starts */
+
+/* sponsor starts */
+.sponsor {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sponsor-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+  max-width: 1250px;
+  margin: 0 auto;
 }
