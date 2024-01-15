@@ -141,8 +141,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 40px;
-  padding-top: 0px ;
- 
+  padding-top: 0px;
+  justify-items: center;
 }
 
 .cart {
@@ -152,13 +152,11 @@ nav {
   background: #fff;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
   margin-top: 30px;
-  
 }
 
-.cart:hover{
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.50);
-  transition: .5s;
-  
+.cart:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
 
 .cart-img {
@@ -198,4 +196,73 @@ nav {
   line-height: 143%;
   letter-spacing: 0.252px;
   padding: 15px;
+}
+
+.see-more {
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px;
+  text-align: end;
+  margin-right: 45px;
+}
+
+#see-more {
+  margin-left: 5px;
+}
+
+/* features starts */
+.features {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.features-img {
+  width: 35%;
+}
+
+.features-text {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features-text-h3 {
+  color: #0a0826;
+  font-size: 2.375rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+.features-text-p {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 28px;
+  margin: 20px 0px;
+}
+.features-btn {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  width: 20%;
+  text-align: center;
+  background: #e02c6d;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.features-btn:hover {
+  color: #e02c6d;
+  background:#fff;
+  transition: .5s;
+  border: 3px solid #e02c6d;
+
 }

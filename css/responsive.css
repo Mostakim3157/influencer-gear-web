@@ -57,15 +57,40 @@
   }
 
   /* popular collection starts*/
-  
-  .collection{
+
+  .collection {
     margin-top: 0;
   }
 
   .collection-cart-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  /* features starts */
+  .features-container {
+    flex-direction: column;
+  }
+  .features-img {
+    width: 100%;
+   
+  }
+  .features-img img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    
+  }
+  .features-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 35px;
+  }
 
-
+  .features-btn {
+    width: 40%;
+    
+  }
 
 }
