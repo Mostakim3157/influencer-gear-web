@@ -1,0 +1,50 @@
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Sora", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* header starts */
+
+/* nav starts */
+
+nav {
+  width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.website-name {
+  width: 50%;
+}
+.website-name-h3 {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-bar {
+  width: 50%;
+}
+
+.nav-bar-container {
+  display: flex;
+  gap: 34px;
+  list-style: none;
+  justify-content: end;
+}
+
+.nav-bar-container li {
+  color: #3a3a3a;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+}
