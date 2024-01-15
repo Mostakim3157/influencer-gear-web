@@ -55,4 +55,17 @@
   .sponsor-img {
     padding: 10px 5px;
   }
+
+  /* popular collection starts*/
+  
+  .collection{
+    margin-top: 0;
+  }
+
+  .collection-cart-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+
+
 }
